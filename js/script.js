@@ -23,10 +23,15 @@ Questo esercizio richiede un po' di ricerca ma anche un po' di domande che accom
 
 //salvo la variabile che devo raggiungere
 
-const countDate = new Date("Feb 9, 2024 9:30:00").getTime();
-
+const countDate = new Date("Feb 12, 2024 9:30:00");
+console.log(countDate);
+ 
 //settiamo il conto alla rovescia ogni secondo
 
-setInterval(function(){
-    
-})
+/* setInterval(function(){
+    const thisDate = new Date().getTime();
+     console.log(thisDate); 
+}) */
+
+const date1 = new Date();
+     console.log(date1); 
