@@ -25,3 +25,8 @@ Questo esercizio richiede un po' di ricerca ma anche un po' di domande che accom
 
 const countDate = new Date("Feb 9, 2024 9:30:00").getTime();
 
+//settiamo il conto alla rovescia ogni secondo
+
+setInterval(function(){
+    
+})
