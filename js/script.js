@@ -51,7 +51,10 @@ console.log(difference);
   document.getElementById("timer").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-
+  if (difference < 0) {
+     clearInterval(x);
+     document.getElementById("demo").innerHTML = "EXPIRED";
+   }
 
 } , 1000);
 
