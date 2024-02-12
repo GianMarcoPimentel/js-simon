@@ -33,9 +33,9 @@ console.log(countDate);
      console.log(thisDate); 
 }) */
 const time = setInterval(function(){ 
-
+ 
      const now = new Date();
-     console.log(now); 
+     console.log(now);  
 
 
 const difference = countDate - now;
@@ -52,8 +52,8 @@ console.log(difference);
   + minutes + "m " + seconds + "s ";
 
   if (difference < 0) {
-     clearInterval(x);
-     document.getElementById("demo").innerHTML = "EXPIRED";
+     clearInterval(time);
+     document.getElementById("timer").innerHTML = "E' Lunedi ,count down finito alle 9:30";
    }
 
 } , 1000);
