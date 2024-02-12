@@ -47,7 +47,10 @@ console.log(difference);
   let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-  
+  // Stampo il risultato a display tramite id="timer"
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
 
 
 } , 1000);
