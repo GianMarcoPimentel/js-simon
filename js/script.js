@@ -41,7 +41,13 @@ const time = setInterval(function(){
 const difference = countDate - now;
 console.log(difference);
 
+  // Calcolo dei giorni,ore,minuti e secondi
+  let days = Math.floor(difference / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
+  
 
 
 } , 1000);
