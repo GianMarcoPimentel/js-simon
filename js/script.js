@@ -32,6 +32,17 @@ console.log(countDate);
     const thisDate = new Date().getTime();
      console.log(thisDate); 
 }) */
+const time = setInterval(function(){ 
 
-const date1 = new Date();
-     console.log(date1); 
+     const now = new Date();
+     console.log(now); 
+
+
+const difference = countDate - now;
+console.log(difference);
+
+
+
+
+} , 1000);
+
