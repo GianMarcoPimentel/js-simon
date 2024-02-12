@@ -53,7 +53,7 @@ console.log(difference);
 
   if (difference < 0) {
      clearInterval(time);
-     document.getElementById("timer").innerHTML = "E' Lunedi ,count down finito alle 9:30";
+     document.getElementById("timer").innerHTML = "E' Lunedi, il count down è finito alle 9:30";
    }
 
 } , 1000);
